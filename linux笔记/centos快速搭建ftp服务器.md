@@ -72,7 +72,7 @@
 ## 开启ftp_home_dir
 如果在登录过程出现 “响应:	500 OOPS: cannot change directory:/home/ssftp” 错误，执行：
 
-	$ setsebool ftp_home_dir on 即可
+	$ setsebool ftp_home_dir on
 	
 使用下面命令:
 
